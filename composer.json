@@ -8,6 +8,7 @@
         "laravel/lumen-framework": "5.1.*"
     },
     "require-dev": {
+        "fzaninotto/faker": "~1.0",
         "phpunit/phpunit": "~4.0"
     },
     "autoload": {
