@@ -12,3 +12,4 @@
 */
 
 $app->get('/', 'CalculatorController@index');
+$app->post('/', 'CalculatorController@calculate');
