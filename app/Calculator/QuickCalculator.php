@@ -58,6 +58,12 @@ class QuickCalculator implements CalculatorInterface
     public function divide($x, $y = false)
     {
         if ($y !== false) {
+            if ($y == 0) {
+                $this->result = 'undefined';
+                
+                return $this;
+            }
+
             $this->result = $x / $y;
 
             return $this;

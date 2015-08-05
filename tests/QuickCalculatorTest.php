@@ -45,6 +45,16 @@ class QuickCalculatorTest extends TestCase
     }
 
     /**
+     * Test the division by zero.
+     */
+    public function testZeroDivision()
+    {
+        $calculator = new QuickCalculator();
+        $calculator->divide(2, 0);
+        $this->assertEquals('undefined', $calculator->getResult());
+    }
+
+    /**
      * Test the basic continuous arithmetic.
      */
     public function testContinuousArithmetic()
