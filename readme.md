@@ -11,4 +11,4 @@ Qcalc accomplishes the following goals:
 
 1. Git Clone: `git clone git@github.com/lancepioch/qcalc.git`
 2. Composer Install: `composer install`
-3. Point web root to ./qcalc/public/
+3. Point web root to `./qcalc/public/`
